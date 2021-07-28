@@ -20,10 +20,10 @@ useEffect(() => {
 
   return (
     <div className="App">
-      <nav>
+      <nav className='navBar'>
       <NavBar/>
       </nav>
-      <div>
+      <div className='pokeList'>
       <HomeBody pokemonList={pokemonList}/>  
       </div>
       
